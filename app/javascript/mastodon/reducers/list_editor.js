@@ -25,7 +25,7 @@ const initialState = ImmutableMap({
   isSubmitting: false,
   isChanged: false,
   title: '',
-  isExclusive: false,
+  isExclusive: true,
 
   accounts: ImmutableMap({
     items: ImmutableList(),
